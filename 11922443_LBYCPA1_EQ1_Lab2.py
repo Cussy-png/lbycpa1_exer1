@@ -7,7 +7,7 @@ print(FULLID)
 
 if FULLID % 11 == 0:
     IDVERSION = FULLID/11
-    if IDVERSION > 16:
+    if IDVERSION < 16:
         print("student")
     elif IDVERSION >= 16:
         print("faculty")
